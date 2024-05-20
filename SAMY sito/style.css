@@ -1,0 +1,184 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    display:flex ;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 100px 1000;
+    text-align: left;
+    display:flex ;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10;
+    display:flex ;
+}
+
+nav ul li {
+    display: flex;
+    margin-right: 300px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+}
+/* Stile generale per il menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Stile del pulsante del menu */
+.dropdown .dropbtn {
+    background-color: #f9f9f9;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Stile del contenuto del menu a tendina */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(166, 255, 0, 0.1);
+    z-index: 1;
+}
+
+/* Stile dei link nel menu a tendina */
+.dropdown-content a {
+    color: #000000;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Cambia il colore del link al passaggio del mouse */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Mostra il menu a tendina quando il pulsante viene passato sopra */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, 1000%);
+}
+
+.button {
+    padding: 10px 30px;
+    background-color: #a200ff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px
+
+.menu {
+    display: flex;
+}
+
+.content {
+    margin-top: 70px; /* Altezza della barra di navigazione */
+    padding: 20px;
+}
+
+
+
+.slideshow-container {
+    position: relative;
+    max-width left: 100%;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+

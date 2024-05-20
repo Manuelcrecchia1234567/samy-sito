@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleria </title>
+    <style>
+        body {
+            margin: -10;
+            padding: 10;
+            font-family: Arial, sans-serif;
+            background-color: #f9e6e6;
+        }
+        .header {
+            background-color: #ffcccc;
+            padding: 5px;
+            text-align: left;
+        }
+        .logo {
+            float: left;
+            margin-right: 10px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            grid-gap: -1000px;
+            justify-content: center;
+            padding: 10px;
+            margin: 100PX;
+        }
+        .item {
+            margin-bottom: 5px;
+        }
+        .item img {
+            width: 100%;
+            height: 700px;
+            display: inline;: block;
+            border-radius: 15px;
+        }
+        .item video {
+            width: 100%;
+            height: 700px;
+            display: inline-block;
+            border-radius: 15px;
+            right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logo (2).png" alt="Logo">
+        </div>
+        <h1>La Mia Galleria </h1>
+    </div>
+    <div class="gallery">
+        <div class="item">
+            <img src="immagini/foto13.png" alt="Immagine 1">
+        </div>
+        <div class="item">
+            <img src="immagini/foto12.png" alt="Immagine 1">
+        </div>
+        <div class="item">
+            <img src="immagini/foto11.png" alt="Immagine 1">
+        </div>
+        <div class="item">
+            <img src="immagini/foto10.png" alt="Immagine 1">
+        </div>
+        <div class="item">
+            <img src="immagini/foto9.png" alt="Immagine 1">
+        </div>
+        <div class="item">
+            <video controls>
+                <source src="immagini/video1.mp4" type="video/mp4">
+                Il tuo browser non supporta il tag video.
+            </video>
+        </div>
+        <div class="item">
+            <img src="immagini/foto2.png" alt="Immagine 2">
+        </div>
+        <div class="item">
+            <video controls>
+                <source src="immagini/video2.mp4" type="video/mp4">
+                Il tuo browser non supporta il tag video.
+            </video>
+        </div>
+        <div class="item">
+            <img src="immagini/foto3.png" alt="Immagine 1">
+        </div>
+        <div class="item">
+            <img src="immagini/foto4.png" alt="Immagine 1">
+        </div>
+        <div class="item">
+            <img src="immagini/foto5.png" alt="Immagine 1">
+        </div>
+        <div class="item">
+            <img src="immagini/foto6.png" alt="Immagine 1">
+        </div>
+        <div class="item">
+            <img src="immagini/foto7.png" alt="Immagine 1">
+        </div>
+        <div class="item">
+            <video controls>
+                <source src="immagini/video3.mp4" type="video/mp4">
+                Il tuo browser non supporta il tag video.
+            </video>
+            <div class="item">
+              
+    
+            
+           
+
+        </div>
+        <!-- Aggiungi altre immagini e video qui -->
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            float: right;
+            margin: 700px;
+            margin-top: -2300px;
+            
+          
+
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-item {
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+<div class="dropdown">
+    <div class="dropdown-content">
+        <a href="index.html" class="dropdown-item">HOME</a>
+        <a href="sanificazioni.html" class="dropdown-item">SANIFICAZIONI</a>
+        <a href="condomini.html" class="dropdown-item">CONDOMINI
+                <a href="uffici.html" class="dropdown-item">UFFICI PRIVATI/PUBBLICI
+    </div>
+    <div style="font-size: 30px;">&#9776;</div>
+</div>
+
+</body>
+</html>
